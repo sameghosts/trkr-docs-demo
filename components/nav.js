@@ -8,17 +8,17 @@
   export default function Nav(){
     return (
       // nav container
-      <div id="nav_container" className="bg-purple-700 p-3 flex flex-col  sm:flex-row justify-around"> 
+      <div id="nav_container" className="bg-purple-700 p-3 flex flex-col  sm:flex-row justify-around max-h-36"> 
         {/* svg logo h1 rn */}
-        <div className="flex flex-start flex-col sm:flex-row">
-        <img src="https://cdn2.iconfinder.com/data/icons/free-line-halloween-icons/24/Ghost-256.png"  className="w-1/12 sm:w-1/6 p-1 bg-green-300 shadow-2xl rounded" alt="Logo"/>
-        <h1 className="p-2  text-xl text-blue-400">S M F</h1>
+        <div className="flex flex-col sm:flex-row sm: items-center">
+        <img src="./favicon.ico"  className="w-1/12 p-1 bg-purple-600 shadow-2xl rounded-full" alt="Logo"/>
+        <h1 className="p-2 items-center ml-4 font-extrabold text-6xl text-blue-400">T R K R </h1>
 
         </div>
         {/* Links div */}
         <div className="flex flex-col sm:flex-row items-center ">
           {/* Links: Projects / About / Contact */}
-          <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#projects">Projects</a>
+          <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#Splash">TRKR</a>
           <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#About">About</a>
           <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#Contact">Contact</a>
         </div>
