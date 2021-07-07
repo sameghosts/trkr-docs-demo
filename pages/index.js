@@ -18,17 +18,14 @@ export default function Home() {
   return (
     <div className="w-screen flex flex-col bg-gray-200" >
       <Head>
-        <title>Sean Feiner Portfolio</title>
+        <title>TRKR Docs and Team</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
       <Splash />
       {/* <Projects /> */}
-      <Projekts />
-
       <About />
-      <Contact />
-    
+      
 
     </div>
   )
