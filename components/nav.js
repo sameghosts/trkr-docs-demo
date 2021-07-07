@@ -20,7 +20,7 @@
           {/* Links: Projects / About / Contact */}
           <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#Splash">TRKR</a>
           <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#About">About</a>
-          <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="#Contact">Contact</a>
+          <a className="sm:inline-block sm:px-8 text-purple-300 hover:text-indigo-100 text-xl font-semibold" href="mailto:seanfeiner.dev@gmail.com">Contact</a>
         </div>
         {/* More button
         <div className="flex items-center">

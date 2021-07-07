@@ -37,7 +37,7 @@ export default function About(){
       </div> */}
       {/* Tech Stack images TODO: Add images */}
       <div className="flex flex-col flex-wrap font-mono">
-        <div className="flex flex-col  items-center justify-around">
+        <div className="flex flex-col  items-center just">
         <p className="text-3xl font-semibold  text-purple-300">
           UX / UI
         </p>
